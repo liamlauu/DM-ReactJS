@@ -1,10 +1,11 @@
 import * as React from 'react';
+// Header Function
+// returns the nav bar
 
-function header() {
+export function Header() {
+    // return navbar
     return (
         <div>
-            <>
-            </>
         </div>
     );
 }
