@@ -3,8 +3,8 @@ Digital Marketing Webapp using ReactJS. This will be a single-page web applicati
 
 ## 1. Headers, Footers and Page Layout
 ### 1.1. Headers
-Headers should contain Logo on the very left, and links/buttons to subpages on the very right.
-Button to the contact page should be emphasized.
+Headers should contain Logo on the very left, and links/buttons to subpages on the very right.\
+Button to the contact page should be emphasized.\
 Header should be mobile-responsive. Layout completely different for mobile.
 
 ### 1.2. Footers
