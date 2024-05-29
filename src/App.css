@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 .nav {
-    background-color: gray;
+    background-color: #04185d;
     color: white;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
@@ -16,7 +16,6 @@
 }
 
 .logo {
-    padding-left: 50px;
     font-size: 20px;
 }
 
@@ -51,7 +50,7 @@ a {
 
 a:hover {
     transition: 0.4s;
-    color:aqua;
+    color:#f85a7d;
     text-underline-offset: 5px;
     text-decoration: underline;
 }
@@ -70,6 +69,7 @@ a:hover {
         width: 100vw;
         justify-content: space-evenly;
         text-decoration: none;
+        gap: 10px;
     }
 
     .menu-icon {
@@ -77,6 +77,10 @@ a:hover {
         fill: currentColor;
         color: white;
         margin: 16px;
+    }
+
+    .menu-icon:hover {
+        cursor: pointer;
     }
 
 }
