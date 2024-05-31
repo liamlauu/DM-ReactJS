@@ -27,7 +27,7 @@ const [winWidth, setWinWidth] = useState(window.innerWidth);
 useEffect (() => {
     // create new function to set width
     function handleWindowWidth () {
-    setWinWidth(window.innerWidth);
+        setWinWidth(window.innerWidth);
     }
     // add event listener to window to detect resizing
     window.addEventListener('resize', handleWindowWidth);
