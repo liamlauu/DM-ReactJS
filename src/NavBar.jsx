@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logoBig from './logo.jpg'
+import logoBig from './clover-svgrepo-com.svg'
 //nav bar
 // TODO: Refractor for code maintainability
 export const NavBar = () => {

@@ -13,9 +13,17 @@ function App() {
   // main component for landing page
   const Home = () => {
     return (
-      <p>Landing</p>
+      <div className='landing-container'>
+        <p>Landing</p>
+      </div>
     );
   }
+
+
+
+
+
+
 
   // main component for Portfolio page
   const Portfolio = () => {
